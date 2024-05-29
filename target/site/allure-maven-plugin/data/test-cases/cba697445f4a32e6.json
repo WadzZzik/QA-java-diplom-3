@@ -1,0 +1,81 @@
+{
+  "uid" : "cba697445f4a32e6",
+  "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+  "fullName" : "tests.RedirectToLoginTests.loginFromMainPageTest",
+  "historyId" : "548726923ff09e3ccfad7967503300ac",
+  "time" : {
+    "start" : 1716992673461,
+    "stop" : 1716992677194,
+    "duration" : 3733
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик по кнопке Войти в аккаунт",
+      "time" : {
+        "start" : 1716992676680,
+        "stop" : 1716992676893,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RedirectToLoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginFromMainPageTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RedirectToLoginTests"
+  }, {
+    "name" : "host",
+    "value" : "Aromanyuk"
+  }, {
+    "name" : "thread",
+    "value" : "4152@Aromanyuk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cba697445f4a32e6.json",
+  "parameterValues" : [ ]
+}

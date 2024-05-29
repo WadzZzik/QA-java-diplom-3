@@ -1,0 +1,131 @@
+[ {
+  "uid" : "efed0f4b00d332b2",
+  "name" : "Вход через кнопку «Личный кабинет»",
+  "time" : {
+    "start" : 1716992680952,
+    "stop" : 1716992683545,
+    "duration" : 2593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cba697445f4a32e6",
+  "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+  "time" : {
+    "start" : 1716992673461,
+    "stop" : 1716992677194,
+    "duration" : 3733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c816f477e0987ba5",
+  "name" : "Переход к разделу Начинки",
+  "time" : {
+    "start" : 1716992655491,
+    "stop" : 1716992660194,
+    "duration" : 4703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f643eabbe54ca7d",
+  "name" : "Переход из личного кабинета в конструктор по клику на Конструктор",
+  "time" : {
+    "start" : 1716992667188,
+    "stop" : 1716992670779,
+    "duration" : 3591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caa479fc52b80209",
+  "name" : "Вход через кнопку в форме регистрации",
+  "time" : {
+    "start" : 1716992677196,
+    "stop" : 1716992680949,
+    "duration" : 3753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9f2d863340fb29d",
+  "name" : "Переход к разделу Булки",
+  "time" : {
+    "start" : 1716992660196,
+    "stop" : 1716992663156,
+    "duration" : 2960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bed69532b1bc74d",
+  "name" : "Переход к разделу Соусы",
+  "time" : {
+    "start" : 1716992647145,
+    "stop" : 1716992655488,
+    "duration" : 8343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad1fbfabce17bec2",
+  "name" : "Выход по кнопке «Выйти» в личном кабинете",
+  "time" : {
+    "start" : 1716992628062,
+    "stop" : 1716992644334,
+    "duration" : 16272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f34df218381e0ef5",
+  "name" : "Переход из личного кабинета в конструктор по клику на лого",
+  "time" : {
+    "start" : 1716992663161,
+    "stop" : 1716992667181,
+    "duration" : 4020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1e675da41d2c5b9",
+  "name" : "Успешная регистрация",
+  "time" : {
+    "start" : 1716992688018,
+    "stop" : 1716992691838,
+    "duration" : 3820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ada0bca1b5bf3970",
+  "name" : "Вход через кнопку в форме восстановления пароля",
+  "time" : {
+    "start" : 1716992670785,
+    "stop" : 1716992673459,
+    "duration" : 2674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8e64b8bb249b16c",
+  "name" : "Ошибка при регистрации пользователя с паролем из пяти символов",
+  "time" : {
+    "start" : 1716992683549,
+    "stop" : 1716992688012,
+    "duration" : 4463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a7c9f5bf2b7d6a8",
+  "name" : "Успешный вход в аккаунт",
+  "time" : {
+    "start" : 1716992644461,
+    "stop" : 1716992647114,
+    "duration" : 2653
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

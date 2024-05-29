@@ -1,0 +1,182 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Aromanyuk",
+    "children" : [ {
+      "name" : "4152@Aromanyuk.main(1)",
+      "children" : [ {
+        "name" : "Вход через кнопку в форме восстановления пароля",
+        "uid" : "ada0bca1b5bf3970",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992670785,
+          "stop" : 1716992673459,
+          "duration" : 2674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Выход по кнопке «Выйти» в личном кабинете",
+        "uid" : "ad1fbfabce17bec2",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992628062,
+          "stop" : 1716992644334,
+          "duration" : 16272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешная регистрация",
+        "uid" : "a1e675da41d2c5b9",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992688018,
+          "stop" : 1716992691838,
+          "duration" : 3820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+        "uid" : "cba697445f4a32e6",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992673461,
+          "stop" : 1716992677194,
+          "duration" : 3733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход из личного кабинета в конструктор по клику на лого",
+        "uid" : "f34df218381e0ef5",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992663161,
+          "stop" : 1716992667181,
+          "duration" : 4020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку в форме регистрации",
+        "uid" : "caa479fc52b80209",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992677196,
+          "stop" : 1716992680949,
+          "duration" : 3753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный вход в аккаунт",
+        "uid" : "3a7c9f5bf2b7d6a8",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992644461,
+          "stop" : 1716992647114,
+          "duration" : 2653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход к разделу Булки",
+        "uid" : "f9f2d863340fb29d",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992660196,
+          "stop" : 1716992663156,
+          "duration" : 2960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку «Личный кабинет»",
+        "uid" : "efed0f4b00d332b2",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992680952,
+          "stop" : 1716992683545,
+          "duration" : 2593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход к разделу Соусы",
+        "uid" : "bed69532b1bc74d",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992647145,
+          "stop" : 1716992655488,
+          "duration" : 8343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ошибка при регистрации пользователя с паролем из пяти символов",
+        "uid" : "a8e64b8bb249b16c",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992683549,
+          "stop" : 1716992688012,
+          "duration" : 4463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход из личного кабинета в конструктор по клику на Конструктор",
+        "uid" : "2f643eabbe54ca7d",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992667188,
+          "stop" : 1716992670779,
+          "duration" : 3591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход к разделу Начинки",
+        "uid" : "c816f477e0987ba5",
+        "parentUid" : "ecb348930d65a2db6930d25b5013cefa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716992655491,
+          "stop" : 1716992660194,
+          "duration" : 4703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ecb348930d65a2db6930d25b5013cefa"
+    } ],
+    "uid" : "7b3a14ac7cf6883393de079fcda45fd6"
+  } ]
+}

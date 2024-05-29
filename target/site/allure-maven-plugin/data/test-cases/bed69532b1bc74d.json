@@ -1,0 +1,81 @@
+{
+  "uid" : "bed69532b1bc74d",
+  "name" : "Переход к разделу Соусы",
+  "fullName" : "tests.ConstructorTests.openSauceListTest",
+  "historyId" : "f7db577ced2804c866015775677b9b0f",
+  "time" : {
+    "start" : 1716992647145,
+    "stop" : 1716992655488,
+    "duration" : 8343
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик по вкладке Соусы",
+      "time" : {
+        "start" : 1716992655096,
+        "stop" : 1716992655259,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ConstructorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "openSauceListTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.ConstructorTests"
+  }, {
+    "name" : "host",
+    "value" : "Aromanyuk"
+  }, {
+    "name" : "thread",
+    "value" : "4152@Aromanyuk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bed69532b1bc74d.json",
+  "parameterValues" : [ ]
+}

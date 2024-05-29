@@ -1,0 +1,135 @@
+{
+  "uid" : "a1e675da41d2c5b9",
+  "name" : "Успешная регистрация",
+  "fullName" : "tests.RegistrationTests.validDataRegistrationTest",
+  "historyId" : "92ad6d6cca0994644368ac6ff349488e",
+  "time" : {
+    "start" : 1716992688018,
+    "stop" : 1716992691838,
+    "duration" : 3820
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод имени",
+      "time" : {
+        "start" : 1716992690304,
+        "stop" : 1716992690500,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "HcYeQQlAYL"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод почты",
+      "time" : {
+        "start" : 1716992690500,
+        "stop" : 1716992690727,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "pondioqOmy@yandex.ru"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод пароля",
+      "time" : {
+        "start" : 1716992690727,
+        "stop" : 1716992690855,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "ipYGilKNBx"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Клик по кнопке Зарегистрироваться",
+      "time" : {
+        "start" : 1716992690856,
+        "stop" : 1716992691501,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegistrationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "validDataRegistrationTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegistrationTests"
+  }, {
+    "name" : "host",
+    "value" : "Aromanyuk"
+  }, {
+    "name" : "thread",
+    "value" : "4152@Aromanyuk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1e675da41d2c5b9.json",
+  "parameterValues" : [ ]
+}

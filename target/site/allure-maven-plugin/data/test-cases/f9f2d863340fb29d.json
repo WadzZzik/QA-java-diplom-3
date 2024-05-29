@@ -1,0 +1,81 @@
+{
+  "uid" : "f9f2d863340fb29d",
+  "name" : "Переход к разделу Булки",
+  "fullName" : "tests.ConstructorTests.openBunListTest",
+  "historyId" : "caa761e7a3b38e27c9d339c57cb430f7",
+  "time" : {
+    "start" : 1716992660196,
+    "stop" : 1716992663156,
+    "duration" : 2960
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик по вкладке Булки",
+      "time" : {
+        "start" : 1716992662617,
+        "stop" : 1716992662900,
+        "duration" : 283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ConstructorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "openBunListTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.ConstructorTests"
+  }, {
+    "name" : "host",
+    "value" : "Aromanyuk"
+  }, {
+    "name" : "thread",
+    "value" : "4152@Aromanyuk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9f2d863340fb29d.json",
+  "parameterValues" : [ ]
+}
