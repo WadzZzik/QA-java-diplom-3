@@ -3,6 +3,7 @@ package tests;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import com.pages.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
@@ -18,6 +19,7 @@ public class RedirectToLoginTests extends BasicTest {
 
     @Before
     public void setUp() {
+        WebDriverManager.chromedriver().setup();
         browserSetUp();
     }
 

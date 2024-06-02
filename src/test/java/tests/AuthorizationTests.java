@@ -3,6 +3,7 @@ package tests;
 import com.UserOperations;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
@@ -16,16 +17,17 @@ import static com.codeborne.selenide.Selenide.page;
 
 public class AuthorizationTests extends BasicTest {
 
-    public Map userData;
+    public Map<String, String> userData;
     UserOperations userOperations = new UserOperations();
     String login;
     String password;
 
     @Before
     public void setUp() {
+        WebDriverManager.chromedriver().setup(); // Инициализация WebDriver Manager для ChromeDriver
         userData = userOperations.register();
-        this.login = userData.get("email").toString();
-        this.password = userData.get("password").toString();
+        this.login = userData.get("email");
+        this.password = userData.get("password");
         browserSetUp();
     }
 
@@ -46,7 +48,7 @@ public class AuthorizationTests extends BasicTest {
         LoginPage loginPage = page(LoginPage.class);
         Selenide.open(loginPage.URL);
         loginPage
-                .loginUser(userData.get("email").toString(), userData.get("password").toString())
+                .loginUser(userData.get("email"), userData.get("password"))
                 .clickProfileButton()
                 .clickLogoutButton();
         Assert.assertEquals("Не произошел переход на главную страницу", expectedUrl, WebDriverRunner.driver().url());

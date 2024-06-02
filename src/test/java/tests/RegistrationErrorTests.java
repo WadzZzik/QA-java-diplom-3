@@ -3,6 +3,7 @@ package tests;
 import com.UserOperations;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
@@ -25,6 +26,7 @@ public class RegistrationErrorTests extends BasicTest {
 
     @Before
     public void setUp() {
+        WebDriverManager.chromedriver().setup();
         userData = userOperations.generateInvalidUserInfo();
         this.name = userData.get("name").toString();
         this.email = userData.get("email").toString();
